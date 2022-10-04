@@ -1,0 +1,117 @@
+ 
+.miti{
+    display: flex !important;
+}
+.sec{
+    flex: 0.4;
+     
+}
+.sec1{
+    flex: 1.6;
+     
+}
+
+.one{
+ flex:1;
+ min-width: 40%;
+ background-color: black;
+}
+.section2{
+    flex:1;
+    margin-left: 9rem;
+}
+.cont{
+    display: flex;
+}
+.navbar{
+    height: 100px;
+}
+.status{
+    display: flex;
+}
+.status-left{
+ width:40%;
+ display:flex;
+ align-items: center;
+ margin:0 3rem;
+}
+.status-right{
+ width: 60%;
+ margin:0 3rem;
+}
+.title{
+    font-size:17px;
+}
+p{
+    font-size: 13px;;
+}
+.logo{
+    margin:5rem;
+}
+.top-item{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.box{
+
+    display: flex;
+    justify-content: space-between;
+}
+.span{
+  width:110px;
+  background-color: antiquewhite;  
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  padding-top: 1rem;
+}
+.button{
+    width: 100px;
+    color: white;
+    background-color: rgb(127, 150, 255);
+    padding: 7px;
+    border-radius: 15px;
+}
+.projects{
+  display:flex;
+}
+.p-div{
+    width: 45%;
+    margin: 1rem;
+}
+.p-title{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width:125px;
+    height:30px;
+    background-color: white;
+    margin:5px;
+    font-size: 11px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.p-container{
+display: flex;
+flex-wrap: wrap;
+}
+.p-task{
+    width: 35%;
+    margin:2rem 2rem 0 0;
+    background-color: rgb(238, 235, 235);
+    padding: 5px;
+    
+}
+.p-line{
+    height: 1px;
+    background-color: gray;
+}
+.p-comp{
+    display: flex;
+    justify-content: space-between;
+}
